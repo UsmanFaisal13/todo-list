@@ -84,12 +84,14 @@
     margin-right: 20%;
     margin-bottom: 5%;
     border-radius: 10px;
-    border: 1px solid white;
+   
     padding: 10px;
     list-style: none;
     padding: 20px;
 }
+
 .task-list li{
+    
     margin-top: 20px;
     margin-bottom: 20px;
     font-size: 1.5rem;
@@ -145,6 +147,46 @@
     padding: 10px;
     min-width: fit-content;
 
+}
+@media screen and (max-width: 600px) {
+    .form{
+        font-size: 1.6rem;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        margin-left: 10%;
+        margin-right: 10%;
+        
+    }
+    .form button{
+        font-size: 1rem;
+        min-width: 50%;
+        min-height: 40px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+    }
+    .form input{
+        font-size: 1rem;
+        min-width: 50%;
+        min-height: 40px;
+        margin-top: 10%;
+        margin-bottom: 10%;
+        padding: 10px;
+        text-indent: 10px;
+    }
+    .task-title{
+        font-size: 1.6rem;
+        margin-top: 10%;
+        
+        
+    }
+    .task-list{
+        font-size: 1rem;
+        
+    }
+    .task-list li button{
+        font-size: 1rem;
+
+    }
 }
 
 
