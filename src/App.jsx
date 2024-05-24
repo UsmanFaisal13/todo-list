@@ -8,14 +8,8 @@ function handleSubmit(e) {
   setTodo((currenttodo) => { return [...currenttodo,
      { id: crypto.randomUUID(),
        title: newItem, completed: false}]  })
-     
       } 
       console.log(todo) 
-  
-      
-     
-
-
   return (
     <>
     <form className="form" onSubmit={handleSubmit}>
