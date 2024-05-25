@@ -32,12 +32,7 @@ function handleSubmit(e) {
             setTodo(todo.filter(i => i.id !== item.id))
           }}>Delete</button>
         </li>
-
       )})}
-    
-     
-
-   
     </ul>
     
     </>
