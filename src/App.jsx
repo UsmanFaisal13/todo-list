@@ -5,11 +5,16 @@ const [newItem, setNewItem] = useState("")
 const [todo, setTodo] = useState([]);
 function handleSubmit(e) {
   e.preventDefault()
+  if (newItem !== ""){
   setTodo((currenttodo) => { return [...currenttodo,
      { id: crypto.randomUUID(),
        title: newItem, completed: false}]  })
       } 
-      console.log(todo) 
+      else {
+        alert("Please enter a task")
+      }
+      console.log(todo) }
+  
   return (
     <>
     <form className="form" onSubmit={handleSubmit}>
